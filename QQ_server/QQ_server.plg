@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QQ_server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/QQ_server.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\64839\Desktop\局域网聊天室\11\QQ_server\QQ_server.rc"" 
+Creating temporary file "C:\Users\64839\AppData\Local\Temp\RSP3C5E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\64839\Desktop\局域网聊天室\11\QQ_server\QQ_server.cpp"
+"C:\Users\64839\Desktop\局域网聊天室\11\QQ_server\QQ_serverDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\64839\AppData\Local\Temp\RSP3C5E.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/QQ_server.pdb" /debug /machine:I386 /out:"Debug/QQ_server.exe" /pdbtype:sept  ".\Debug\QQ_server.obj" ".\Debug\QQ_serverDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\QQ_server.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+QQ_serverDlg.cpp
+c:\users\64839\desktop\局域网聊天室\11\qq_server\qq_serverdlg.cpp(304) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+c:\users\64839\desktop\局域网聊天室\11\qq_server\qq_serverdlg.cpp(342) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+c:\users\64839\desktop\局域网聊天室\11\qq_server\qq_serverdlg.cpp(439) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+Generating Code...
+Compiling...
+QQ_server.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/QQ_server.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\QQ_server.sbr" ".\Debug\QQ_serverDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+QQ_server.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
